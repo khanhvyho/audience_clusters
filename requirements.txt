@@ -1,0 +1,19 @@
+# Core
+numpy>=1.24
+pandas>=2.1
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.8
+tqdm>=4.66
+pyarrow>=14.0
+kagglehub
+
+# Notebooks (optional)
+ipykernel>=6.29
+jupyterlab>=4.1
+
+# Optional extras (uncomment if needed)
+# yellowbrick>=1.5           # elbow/silhouette visualizers
+# spherecluster>=0.1.7       # spherical (cosine) K-Means
+# polars>=0.20               # fast dataframes (optional)
+# dask[dataframe]>=2024.1.0  # scale to big data
