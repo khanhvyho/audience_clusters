@@ -2,6 +2,8 @@
 
 ## Introduction
 
+### **_Please read the PDF file for full project details._**
+
 This Audience Segmentation Using K-Means Clustering Project is my personal project developed to strengthen my understanding of unsupervised learning and its application in large-scale audience data. The goal is to explore how users naturally group together based on their movie viewing patterns and genre ratings, and to uncover meaningful audience segments without relying on predefined labels.
 
 This is a data-driven project, meaning the analysis is guided by the behavior and characteristics of the data rather than a specific prediction task. Instead of beginning with a fixed hypothesis, the approach allows the data itself to reveal patterns and insights-highlighting differences in engagement levels, genre preferences, and rating tendencies among user clusters.
