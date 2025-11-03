@@ -25,6 +25,20 @@ Specifically, I apply the K-Means algorithm, an unsupervised learning technique 
 
 ---
 
+## Dataset
+
+The MovieLens dataset is imported directly from Kaggle using the kagglehub library. [The Movie Dataset]("https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/")
+
+Two CSV files are loaded for analysis:
+
+- "movies_metadata.csv" contains movie details and genres, 45,466 observations (rows) of 25 variables (columns). Variables of interest include: "genres", "id", and "original_title".
+
+- "ratings.csv" includes user ratings from users, 26,024,289 observations (rows) of 4 variables (columns). These are "userId", "movieId", "rating", and "timestamp".
+
+**After preprocessing, the dataset for audience segmentation contains about 266,000 users who rated 45,000 titles, totaling 11.3 million ratings.**
+
+---
+
 ## Finding
 
 | **Cluster**                                         | **Profile Summary**                                                                                                 | **High-Rated Genres (≥3)**                                                               | **Content / Product Strategy**                                                                                                       | **Marketing & Engagement Actions**                                                                                                                                |
